@@ -1,0 +1,322 @@
+[
+    {
+        "Hero Name": "D.Va",
+        "Role": "Dive Tank",
+        "Portrait Img": "/images/hero_portraits/d.va-portrait.png",
+        "Icon Img": "/images/hero-icons/dva-icon.png",
+        "Counters": "Orisa, Sigma",
+        "Weaknesses": "Zarya, Symmetra, Mei"
+    },
+    {
+        "Hero Name": "Doomfist",
+        "Role": "Dive Tank",
+        "Portrait Img": "/images/hero_portraits/doomfist-portrait.png",
+        "Icon Img": "/images/hero-icons/doomfist-icon.png",
+        "Counters": "Reinhardt, Sigma",
+        "Weaknesses": "Roadhog, Sombra, Ana"
+    },
+    {
+        "Hero Name": "Junker Queen",
+        "Role": "Brawl Tank",
+        "Portrait Img": "/images/hero_portraits/junkerqueen-portrait.png",
+        "Icon Img": "/images/hero-icons/junker-queen-icon.png",
+        "Counters": "WInston, Doomfist",
+        "Weaknesses": "Orisa, Bastion, Kiriko"
+    },
+    {
+        "Hero Name": "Mauga",
+        "Role": "Brawl Tank",
+        "Portrait Img": "/images/hero_portraits/mauga-portrait.png",
+        "Icon Img": "/images/hero-icons/mauga-icon.png",
+        "Counters": "Roadhog, Winston, Doomfist",
+        "Weaknesses": "Zarya, Bastion, Ana"
+    },
+    {
+        "Hero Name": "Orisa",
+        "Role": "Poke Tank",
+        "Portrait Img": "/images/hero_portraits/orisa-portrait.png",
+        "Icon Img": "/images/hero-icons/orisa-icon.png",
+        "Counters": "Reinhardt, Ramattra",
+        "Weaknesses": "Sigma, Zarya, Echo"
+    },
+    {
+        "Hero Name": "Ramattra",
+        "Role": "Poke/Brawl Tank",
+        "Portrait Img": "/images/hero_portraits/ramattra-portrait.png",
+        "Icon Img": "/images/hero-icons/ramattra-icon.png",
+        "Counters": "Reinhardt, D.Va",
+        "Weaknesses": "Orisa, Roadhog, Doomfist"
+    },
+    {
+        "Hero Name": "Reinhardt",
+        "Role": "Brawl Tank",
+        "Portrait Img": "/images/hero_portraits/reinhardt-portrait.png",
+        "Icon Img": "/images/hero-icons/reinhardt-icon.png",
+        "Counters": "Zarya, Sigma, Junker Queen",
+        "Weaknesses": "Ramattra, Bastion, Orisa"
+    },
+    {
+        "Hero Name": "Roadhog",
+        "Role": "Brawl Tank",
+        "Portrait Img": "/images/hero_portraits/roadhog-portrait.png",
+        "Icon Img": "/images/hero-icons/roadhog-icon.png",
+        "Counters": "Doomfist, Ramattra",
+        "Weaknesses": "Mauga, Orisa, Ana"
+    },
+    {
+        "Hero Name": "Sigma",
+        "Role": "Poke Tank",
+        "Portrait Img": "/images/hero_portraits/sigma-portrait.png",
+        "Icon Img": "/images/hero-icons/sigma-icon.png",
+        "Counters": "Orisa, Bastion",
+        "Weaknesses": "Doomfist, Winston, Symmetra"
+    },
+    {
+        "Hero Name": "Winston",
+        "Role": "Dive Tank",
+        "Portrait Img": "/images/hero_portraits/winston-portrait.png",
+        "Icon Img": "/images/hero-icons/winston-icon.png",
+        "Counters": "Sigma, D.Va, Genji",
+        "Weaknesses": "Reinhardt, Reaper, Brigitte"
+    },
+    {
+        "Hero Name": "Wrecking Ball",
+        "Role": "Dive Tank",
+        "Portrait Img": "/images/hero_portraits/wrecking-ball-portrait.png",
+        "Icon Img": "/images/hero-icons/wrecking-ball-icon.png",
+        "Counters": "Sigma, D.Va, Widowmaker",
+        "Weaknesses": "Roadhog, Sombra, Junkrat"
+    },
+    {
+        "Hero Name": "Zarya",
+        "Role": "Brawl Tank",
+        "Portrait Img": "/images/hero_portraits/zarya-portrait.png",
+        "Icon Img": "/images/hero-icons/zarya-icon.png",
+        "Counters": "D.Va, Mauga, Orisa",
+        "Weaknesses": "Reinhardt, Bastion, Ramattra"
+    },
+    {
+        "Hero Name": "Ashe",
+        "Role": "Poke Damage",
+        "Portrait Img": "/images/hero_portraits/ashe-portrait.png",
+        "Icon Img": "/images/hero-icons/ashe-icon.png",
+        "Counters": "Pharah, Echo, Mercy",
+        "Weaknesses": "Widowmaker, Tracer, Genji"
+    },
+    {
+        "Hero Name": "Bastion",
+        "Role": "Poke Damage",
+        "Portrait Img": "/images/hero_portraits/bastion-portrait.png",
+        "Icon Img": "/images/hero-icons/bastion-icon.png",
+        "Counters": "Zarya, Junker Queen, Reinhardt",
+        "Weaknesses": "Sigma, Genji, Tracer"
+    },
+    {
+        "Hero Name": "Cassidy",
+        "Role": "Brawl Damage",
+        "Portrait Img": "/images/hero_portraits/cassidy-portrait.png",
+        "Icon Img": "/images/hero-icons/cassidy-icon.png",
+        "Counters": "Pharah, Tracer, Wrecking Ball",
+        "Weaknesses": "Soldier: 76, Ashe, Reaper"
+    },
+    {
+        "Hero Name": "Echo",
+        "Role": "Poke Damage",
+        "Portrait Img": "/images/hero_portraits/echo-portrait.png",
+        "Icon Img": "/images/hero-icons/echo-icon.png",
+        "Counters": "Bastion, Reinhardt, Junkrat",
+        "Weaknesses": "Ashe, Cassidy, Soldier: 76"
+    },
+    {
+        "Hero Name": "Genji",
+        "Role": "Dive Damage",
+        "Portrait Img": "/images/hero_portraits/genji-portrait.png",
+        "Icon Img": "/images/hero-icons/genji-icon.png",
+        "Counters": "Bastion, Widowmaker, Hanzo",
+        "Weaknesses": "Winston, Pharah, Mei"
+    },
+    {
+        "Hero Name": "Hanzo",
+        "Role": "Poke Damage",
+        "Portrait Img": "/images/hero_portraits/hanzo-portrait.png",
+        "Icon Img": "/images/hero-icons/hanzo-icon.png",
+        "Counters": "Sombra, Torbjorn, Ashe",
+        "Weaknesses": "Pharah, Sojourn, Soldier: 76"
+    },
+    {
+        "Hero Name": "Junkrat",
+        "Role": "Brawl/Dive Damage",
+        "Portrait Img": "/images/hero_portraits/junkrat-portrait.png",
+        "Icon Img": "/images/hero-icons/junkrat-icon.png",
+        "Counters": "Reinhardt, Wrecking Ball, Widowmaker",
+        "Weaknesses": "Pharah, Echo, Hanzo"
+    },
+    {
+        "Hero Name": "Mei",
+        "Role": "Brawl Damage",
+        "Portrait Img": "/images/hero_portraits/mei-portrait.png",
+        "Icon Img": "/images/hero-icons/mei-icon.png",
+        "Counters": "D.Va, Zarya, Genji",
+        "Weaknesses": "Cassidy, Sojourn, Kiriko"
+    },
+    {
+        "Hero Name": "Pharah",
+        "Role": "Poke Damage",
+        "Portrait Img": "/images/hero_portraits/pharah-portrait.png",
+        "Icon Img": "/images/hero-icons/pharah-icon.png",
+        "Counters": "Reinhardt, Torbjorn, Junkrat",
+        "Weaknesses": "Soldier: 76, Ashe, Cassidy"
+    },
+    {
+        "Hero Name": "Reaper",
+        "Role": "Brawl Damage",
+        "Portrait Img": "/images/hero_portraits/reaper-portrait.png",
+        "Icon Img": "/images/hero-icons/reaper-icon.png",
+        "Counters": "Winston, Bastion, Ana",
+        "Weaknesses": "Cassidy, Ashe, Echo"
+    },
+    {
+        "Hero Name": "Sojourn",
+        "Role": "Poke Damage",
+        "Portrait Img": "/images/hero_portraits/sojourn-portrait.png",
+        "Icon Img": "/images/hero-icons/sojourn-icon.png",
+        "Counters": "Pharah, Cassidy, Hanzo",
+        "Weaknesses": "Winston, Zarya, Lucio"
+    },
+    {
+        "Hero Name": "Soldier: 76",
+        "Role": "Poke Damage",
+        "Portrait Img": "/images/hero_portraits/soldier76-portrait.png",
+        "Icon Img": "/images/hero-icons/soldier76-icon.png",
+        "Counters": "Pharah, Echo, Ana",
+        "Weaknesses": "Roadhog, Genji, D.Va"
+    },
+    {
+        "Hero Name": "Sombra",
+        "Role": "Dive Damage",
+        "Portrait Img": "/images/hero_portraits/sombra-portrait.png",
+        "Icon Img": "/images/hero-icons/sombra-icon.png",
+        "Counters": "Doomfist, Wrecking Ball, Mercy",
+        "Weaknesses": "Hanzo, Winston, D.Va"
+    },
+    {
+        "Hero Name": "Symmetra",
+        "Role": "Brawl Damage",
+        "Portrait Img": "/images/hero_portraits/symmetra-portrait.png",
+        "Icon Img": "/images/hero-icons/symmetra-icon.png",
+        "Counters": "Reinhardt, D.Va, Sigma",
+        "Weaknesses": "Pharah, Junkrat, Mei"
+    },
+    {
+        "Hero Name": "Torbjorn",
+        "Role": "Poke Damage",
+        "Portrait Img": "/images/hero_portraits/torbjorn-portrait.png",
+        "Icon Img": "/images/hero-icons/torbjorn-icon.png",
+        "Counters": "Tracer, Sombra, Lucio",
+        "Weaknesses": "Pharah, Widowmaker, Ana"
+    },
+    {
+        "Hero Name": "Tracer",
+        "Role": "Dive Damage",
+        "Portrait Img": "/images/hero_portraits/tracer-portrait.png",
+        "Icon Img": "/images/hero-icons/tracer-icon.png",
+        "Counters": "Widowmaker, Bastion, Cassidy",
+        "Weaknesses": "Torbjorn, Hanzo, Winston"
+    },
+    {
+        "Hero Name": "Venture",
+        "Role": "Dive Damage",
+        "Portrait Img": "/images/hero_portraits/venture-portrait.png",
+        "Icon Img": "/images/hero-icons/venture-icon.png",
+        "Counters": "Widowmaker, Ashe, Ana",
+        "Weaknesses": "Pharah, D.Va, Baptiste"
+    },
+    {
+        "Hero Name": "Widowmaker",
+        "Role": "Poke Damage",
+        "Portrait Img": "/images/hero_portraits/widowmaker-portrait.png",
+        "Icon Img": "/images/hero-icons/widowmaker-icon.png",
+        "Counters": "Pharah, Ana, Mercy",
+        "Weaknesses": "Widowmaker, Genji, Tracer"
+    },
+    {
+        "Hero Name": "Ana",
+        "Role": "Flex Support",
+        "Portrait Img": "/images/hero_portraits/ana-portrait.png",
+        "Icon Img": "/images/hero-icons/ana-icon.png",
+        "Counters": "Roadhog, Mauga, Doomfist",
+        "Weaknesses": "D.Va, Widowmaker, Tracer"
+    },
+    {
+        "Hero Name": "Baptiste",
+        "Role": "Flex Support",
+        "Portrait Img": "/images/hero_portraits/baptiste-portrait.png",
+        "Icon Img": "/images/hero-icons/baptiste-icon.png",
+        "Counters": "Venture, Pharah, Echo",
+        "Weaknesses": "D.Va, Genji, Hanzo"
+    },
+    {
+        "Hero Name": "Brigitte",
+        "Role": "Main Support",
+        "Portrait Img": "/images/hero_portraits/brigitte-portrait.png",
+        "Icon Img": "/images/hero-icons/brigitte-icon.png",
+        "Counters": "Reinhardt, D.Va, Sombra",
+        "Weaknesses": "Bastion, Pharah, Ramattra"
+    },
+    {
+        "Hero Name": "Illari",
+        "Role": "Flex Support",
+        "Portrait Img": "/images/hero_portraits/illari-portrait.png",
+        "Icon Img": "/images/hero-icons/illari-icon.png",
+        "Counters": "Pharah, Echo, Mercy",
+        "Weaknesses": "Winston, D.Va, Doomfist"
+    },
+    {
+        "Hero Name": "Kiriko",
+        "Role": "Flex Support",
+        "Portrait Img": "/images/hero_portraits/kiriko-portrait.png",
+        "Icon Img": "/images/hero-icons/kiriko-icon.png",
+        "Counters": "Junker Queen, Ana, Mei",
+        "Weaknesses": "Widowmaker, Sombra, Tracer"
+    },
+    {
+        "Hero Name": "Lifeweaver",
+        "Role": "Main Support",
+        "Portrait Img": "/images/hero_portraits/lifeweaver-portrait.png",
+        "Icon Img": "/images/hero-icons/lifeweaver-icon.png",
+        "Counters": "Orisa, Zarya",
+        "Weaknesses": "Widowmaker, Winston, D.Va"
+    },
+    {
+        "Hero Name": "Lucio",
+        "Role": "Main Support",
+        "Portrait Img": "/images/hero_portraits/lucio-portrait.png",
+        "Icon Img": "/images/hero-icons/lucio-icon.png",
+        "Counters": "Widowmaker, Sojourn",
+        "Weaknesses": "Torbjorn, Pharah, Moira"
+    },
+    {
+        "Hero Name": "Mercy",
+        "Role": "Main Support",
+        "Portrait Img": "/images/hero_portraits/mercy-portrait.png",
+        "Icon Img": "/images/hero-icons/mercy-icon.png",
+        "Counters": "",
+        "Weaknesses": "Widowmaker, D.Va, Genji"
+    },
+    {
+        "Hero Name": "Moira",
+        "Role": "Flex Support",
+        "Portrait Img": "/images/hero_portraits/moira-portrait.png",
+        "Icon Img": "/images/hero-icons/moira-icon.png",
+        "Counters": "Genji, Tracer",
+        "Weaknesses": "Widowmaker, D.Va, Winston"
+    },
+    {
+        "Hero Name": "Zenyatta",
+        "Role": "Flex Support",
+        "Portrait Img": "/images/hero_portraits/zenyatta-portrait.png",
+        "Icon Img": "/images/hero-icons/zenyatta-icon.png",
+        "Counters": "Mauga, Reinhardt",
+        "Weaknesses": "Widowmaker, Winston, D.Va"
+    }
+]
