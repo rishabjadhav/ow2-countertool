@@ -1,6 +1,11 @@
 let heroData = [];
 
+
 const metaCompositions = {
+    // listed meta compositions as of 09/15/2024
+    // due to tank importance, team comp based on tank if specified
+    // else, look for majority hero classification
+
     brawl: ["Reinhardt", "Mei", "Reaper", "Lucio", "Moira"],
     poke: ["Sigma", "Widowmaker", "Ashe", "Ana", "Baptiste"],
     dive: ["D.Va", "Tracer", "Genji", "Lucio", "Kiriko"],
@@ -88,7 +93,7 @@ function determineAndSuggestTeam(enemyTeam) {
     let playstyleCounts = { brawl: 0, poke: 0, dive: 0 };
     let tankSpecified = false;
 
-    // Count the occurrences of each playstyle and check for specified tanks
+    // counts for majority team comp class, in case of no tank
     enemyTeam.forEach(heroName => {
         const hero = heroData.find(h => h["Hero Name"] === heroName);
         if (hero) {
@@ -110,7 +115,8 @@ function determineAndSuggestTeam(enemyTeam) {
 
         let suggestedTeam;
 
-        // Determine the appropriate tank-specific team composition
+        // determine tank specific comp
+        // couldve used switch statement i know
         if (tankHero === "D.Va") {
             suggestedTeam = metaCompositions.brawlvdva;
         } else if (tankHero === "Doomfist") {
@@ -138,18 +144,16 @@ function determineAndSuggestTeam(enemyTeam) {
         }
         displaySuggestedTeam(suggestedTeam);
     } else {
-        // Default to the most common playstyle if no tank is specified
-        let predominantPlaystyle = "brawl"; // Default to brawl if no specific conditions met
+        let predominantPlaystyle = "dive"; //defaults to dive in case of no heroes, as dive is most meta
         if (playstyleCounts.poke > playstyleCounts.brawl && playstyleCounts.poke > playstyleCounts.dive) {
-            predominantPlaystyle = "poke";
-        } else if (playstyleCounts.dive > playstyleCounts.brawl && playstyleCounts.dive > playstyleCounts.poke) {
             predominantPlaystyle = "dive";
-        } else if (playstyleCounts.brawl > playstyleCounts.poke && playstyleCounts.brawl > playstyleCounts.dive) {
+        } else if (playstyleCounts.dive > playstyleCounts.brawl && playstyleCounts.dive > playstyleCounts.poke) {
             predominantPlaystyle = "brawl";
+        } else if (playstyleCounts.brawl > playstyleCounts.poke && playstyleCounts.brawl > playstyleCounts.dive) {
+            predominantPlaystyle = "poke";
         }
 
         const suggestedTeam = metaCompositions[predominantPlaystyle];
-        console.log('Suggested team (no tank specified):', suggestedTeam);
         displaySuggestedTeam(suggestedTeam);
     }
 }
